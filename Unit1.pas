@@ -308,6 +308,7 @@ Form_set := TForm_set.Create(Application);
 
       FontName := Form_set.ComboBox1.Text;
       Panel1.Font.Name:= FontName;
+      curtime := maxtime;
     end
     else
     begin
@@ -391,7 +392,7 @@ MessageBox(Handle,PChar('关于PPT Countdown(PPT倒计时器)'
 
                          +#13+'东北大学机械可靠性与动力学研究中心'
                          +#13+'有问题联系:wangybcn@gmail.com'
-                         +#13+'V1.0.6.0'
+                         +#13+'V1.0.7.0'
                          +#13+'2014.4'
                          
 ),'About PPT Countdown(PPT倒计时器)',MB_OK);
